@@ -1,0 +1,58 @@
+{
+  "etudiants": [
+    {
+      "id": "1",
+      "name": "seaghi",
+      "date": "29/11/1992",
+      "note": 18
+    },
+    {
+      "id": "2",
+      "name": "zidani",
+      "date": "01/01/2000",
+      "note": 20
+    },
+    {
+      "id": "3",
+      "name": "tourkmani",
+      "date": "09/10/1995",
+      "note": 15
+    },
+    {
+      "id": "4",
+      "name": "karim",
+      "date": "1999-11-11",
+      "note": "10"
+    },
+    {
+      "id": "b36b",
+      "name": "marwan",
+      "date": "2020-11-22",
+      "note": "15"
+    },
+    {
+      "id": "8949",
+      "name": "ali",
+      "date": "1992-04-11",
+      "note": "18"
+    },
+    {
+      "id": "e99c",
+      "name": "abdallah",
+      "date": "1992-11-29",
+      "note": "20"
+    },
+    {
+      "id": "2f30",
+      "name": "hanan",
+      "date": "1998-02-22",
+      "note": "7"
+    },
+    {
+      "id": "c8ce",
+      "name": "salima",
+      "date": "2002-11-23",
+      "note": "9.5"
+    }
+  ]
+}

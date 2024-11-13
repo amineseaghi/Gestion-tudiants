@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion étudiants</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/script.js" defer type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ajouter étudiant</h1>
+        <form method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="date" name="date">
+            </div>
+            <div class="mb-3">
+                <label for="note" class="form-label">Note</label>
+                <input type="number" max="20" min="0" step="0.1" class="form-control" id="note" name="note">
+            </div>
+            <div class="mb-3">
+                <button class="form-control btn btn-success" id="add">Ajouter</button>
+            </div>
+        </form>
+
+        <h1>List des étudiants</h1>
+        <span><button class="btn btn-primary" id="refresh">Actualiser la liste</button></span>
+        <div id="app">
+            <div
+                class="table-responsive my-3"
+            >
+                <table
+                    class="table"
+                >
+                    <thead>
+                        <tr class="table-primary">
+                            <th scope="col">#ID</th>
+                            <th scope="col">Nom</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Note</th>
+                            <th scope="col">Supprimé</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list-etudiants"> 
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
